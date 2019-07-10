@@ -1,0 +1,8 @@
+<script src="/socket.io/socket.io.js"></script>
+<script src="/notification.js"></script>
+<script>
+    var socket = io(window.location.href);
+    socket.on("Notification", function (data) {
+        NotificationOpen(data);
+    });
+</script>
