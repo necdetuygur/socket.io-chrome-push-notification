@@ -1,2 +1,4 @@
-# socket.io-chrome-push-notification
-Socket.io Chrome Push Notification
+```
+npm install
+node index.js
+```
